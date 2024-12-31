@@ -10,7 +10,7 @@ pool:
   name: self-host-pool
 
 variables:
-  solution: "./DIO_API_Tempo_EmiDevSS13/*.sln"
+  solution: "C:/Users/omena/OneDrive/Documents/data_science/az204/DIO_API_Tempo/DIO_API_Tempo_EmiDevSS13/DIO_API_Tempo_EmiDevSS13.sln"
   buildPlatform: "Any CPU"
   buildConfiguration: "Release"
 
@@ -35,4 +35,4 @@ steps:
     containerRegistry: 'acrconnemidevss13dioapitempo'
     repository: 'apidiotesttempo'
     command: 'buildAndPush'
-    Dockerfile: './DIO_API_Tempo_EmiDevSS13/DIO_API_Tempo/Dockerfile'
+    Dockerfile: 'C:/Users/omena/OneDrive/Documents/data_science/az204/DIO_API_Tempo/DIO_API_Tempo_EmiDevSS13/DIO_API_Tempo/Dockerfile'
