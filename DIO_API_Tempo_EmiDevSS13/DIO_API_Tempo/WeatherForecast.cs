@@ -8,6 +8,9 @@ namespace DIO_API_Tempo
 
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 
+        public int TemperatureK => 273 + TemperatureC;
         public string? Summary { get; set; }
+        public string ai => "eu amo a Fabi";
+
     }
 }
