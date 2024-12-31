@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: self-host-pool
 
 variables:
   solution: "./DIO_API_Tempo_EmiDevSS13/*.sln"
